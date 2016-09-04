@@ -1,0 +1,20 @@
+Implement of 2013 paper Deep Convolutional Network Cascade for Facial Point Detection. 
+language -- python
+----------------------------------------------------------------------
+[LIBRARY REQUARED]
+google tensorflow
+Image from PIL
+numpy
+----------------------------------------------------------------------
+[DATA PREPARE]
+training set and test set can be downloaded in link
+http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm
+totally about 200MB
+----------------------------------------------------------------------
+[FILES]
+point_detect_with_decay.py -- init and run graph, store models and test
+face_point_with_decay.py -- construct model of the whole routine
+input_data.py -- extract data
+-----------------------------------------------------------------------
+[USAGE]
+
